@@ -12,7 +12,7 @@ import javax.net.ssl.SSLSocketFactory;
 
 public class LogentriesClient {
     // Logentries server endpoints for logs data.
-    private static final String LE_TOKEN_API = "data.logentries.com"; // For token-based stream input
+    private static final String LE_TOKEN_API = "eu.data.logs.insight.rapid7.com"; // For token-based stream input
 
     private static final String LE_HTTP_API = "http://webhook.logentries.com/noformat/logs/";   // For HTTP-based input.
     private static final String LE_HTTPS_API = "https://webhook.logentries.com/noformat/logs/";   // For HTTP-based input.

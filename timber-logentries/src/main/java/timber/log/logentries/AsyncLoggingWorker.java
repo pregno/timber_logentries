@@ -385,7 +385,7 @@ public class AsyncLoggingWorker {
 
     class Config {
         boolean useHttpPost = false;
-        boolean useSsl = false;
+        boolean useSsl = true;
         boolean isUsingDataHub = false;
         String dataHubAddr = "";
         int dataHubPort = 0;
